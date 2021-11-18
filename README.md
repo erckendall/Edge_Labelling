@@ -6,3 +6,5 @@ The initial vertex/edge and face/edge matrices may be edited for any desired ini
 This version of the code adds edges at random, but this randomisation can be easily changed to user-directed additions.
 
 The user may wish to change print commands to view, for example, the full list of CCGs, the full list of proper labellings, etc., or may choose to write these to a file. The current version does not write outputs to a file, but prints information as the code progresses.
+
+See the supplementary file brute_force_check.py for verification of CCG generation through exhaustive check of all combinations of (2/3)n edges. This can be incorporated into the main code if desired.
